@@ -193,7 +193,7 @@ body.dark .my-picture {
 	border: 3px solid #313131;
 }
 body.dark .resume-list-item {
-    background: rgba(255, 255, 255, 0.1) !important;
+	background: rgba(255, 255, 255, 0.1) !important;
 }
 body.dark .resume-card-header {
 	border-bottom: 1px solid #333;
@@ -243,7 +243,7 @@ body.blog.dark .widget-tags ul > li a {
 }
 body.blog.dark .meta {
 	border-top: 1px solid #555;
-    border-bottom: 1px solid #555;
+	border-bottom: 1px solid #555;
 }
 body.blog.dark .pagination li:hover {
 	background:#333;
@@ -253,8 +253,8 @@ body.blog.dark .pagination li a {
 }
 body.blog.dark .widget.recent-posts ul li:last-child {
 	border: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 body.blog.dark .comments-form  form .input-field label{
 	color:#eee;
@@ -636,7 +636,7 @@ section.bl-expand .bl-icon-close {
 .bl-main>section.topleft:before {
 	position:absolute;
 	bottom: -36px;
-    z-index: 1;
+	z-index: 1;
 	right:0;
 	content:url('../images/separator2.png');
 	max-width:960px;
@@ -691,13 +691,13 @@ section.bl-expand .bl-icon-close {
 .personal-info a.btn {
 	margin-top:-7px;
 	height: 42px;
-    line-height: 42px;
-    font-size: 15px;
+	line-height: 42px;
+	font-size: 15px;
 }
 
 .personal-info a.btn.btn-blog  {
 	margin-left:25px;
-    background: transparent;
+	background: transparent;
 	transition:.1s;
 }
 
@@ -705,9 +705,7 @@ section.bl-expand .bl-icon-close {
 	color:#fff;
 }
 
-a{
-	color:orange;
-}
+
 /*** Resume Panels ***/
 
 .resume-container {
@@ -935,10 +933,6 @@ span.separator {
 
 /*** Direction-Aware Items ***/
 
-div[data-panel="panel-5"], div[data-panel="panel-6"], div[data-panel="panel-7"], div[data-panel="panel-8"]{
-	display: none;
-}
-
 #bl-work-items {
 	list-style: none;
 	position: relative;
@@ -1156,8 +1150,8 @@ div.bl-panel-items a.btn {
 	background-color: rgba(0, 0, 0, .1);
 	margin-bottom: 15px;
 	height: 42px;
-    line-height: 42px;
-    font-size: 15px;
+	line-height: 42px;
+	font-size: 15px;
 }
 
 .carousel .carousel-item>img {
@@ -1170,12 +1164,9 @@ div.bl-panel-items a.btn {
 	border: 4px solid rgba(0, 0, 0, .1);
 }
 
-.carousel .indicators {
-	background: rgba(255, 255, 255, .4);
-}
 
 .carousel .indicators .indicator-item {
-	background-color: #fff;
+	background-color: rgba(0, 0, 0, .1);
 	width: 13px;
 	height: 13px;
 	margin: 24px 4px 16px;
@@ -1314,9 +1305,9 @@ ul.social-intro li a {
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field input[type=text],
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field input[type=email],
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field textarea {
-     border-bottom: 1px solid #ddd;
-	 margin-left:40px;
-	 width: calc(100% - 2.5rem);
+	border-bottom: 1px solid #ddd;
+	margin-left:40px;
+	width: calc(100% - 2.5rem);
 }
 .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-field label {
 	color: #555;
@@ -1434,15 +1425,15 @@ body.blog figure a img{
 body.blog article h4{
 	color:#555;
 	text-transform: uppercase;
-    font-weight: 600;
-    font-size: 28px;
+	font-weight: 600;
+	font-size: 28px;
 	margin: 0 0 24px;
 }
 
 body.blog .readmore.btn {
 	height: 42px;
-    line-height: 42px;
-    font-size: 15px;
+	line-height: 42px;
+	font-size: 15px;
 	margin-bottom: 25px;
 }
 body.blog p {
@@ -1450,16 +1441,16 @@ body.blog p {
 }
 
 body.blog .meta {
-	    clear: both;
-    padding: 15px 0;
-    width: 100%;
+	clear: both;
+	padding: 15px 0;
+	width: 100%;
 	border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 	font-size: 14px;
 }
 body.blog .meta span {
 	margin-right:15px;
-	    display: inline-block;
+	display: inline-block;
 }
 
 /* Pagination */
@@ -1469,9 +1460,9 @@ body.blog .pagination {
 }
 body.blog .pagination li {
 	border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    line-height: 36px;
+	width: 32px;
+	height: 32px;
+	line-height: 36px;
 	transition:.1s;
 }
 body.blog .pagination li:hover {
@@ -1484,97 +1475,97 @@ body.blog .pagination li a {
 	color:#656c6d;
 }
 body.blog .pagination li a i {
-	    font-size: 20px;
+	font-size: 20px;
 }
 
 /* Comments */
 
 .comments-heading{
-      margin-top: 40px;
-    font-size: 28px;
+	margin-top: 40px;
+	font-size: 28px;
 }
 
 .comments-list{
-   list-style: none;
-   margin: 0;
-   padding: 20px 0;
+	list-style: none;
+	margin: 0;
+	padding: 20px 0;
 }
 
 .comments-list .comment{
-   border-bottom: 1px solid #ddd;
-   padding-bottom: 20px;
-   margin-bottom: 30px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .comments-list .comment.last{
-   border-bottom: 0;
-   padding-bottom: 0;
-   margin-bottom: 0;
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 .comments-list img.comment-avatar{
-   width: 82px;
-   height: 82px;
-   border-radius: 100%;
-   margin-right: 25px;
+	width: 82px;
+	height: 82px;
+	border-radius: 100%;
+	margin-right: 25px;
 }
 
 .comments-list .comment-body{
-   margin-left: 110px;
+	margin-left: 110px;
 }
 
 .comments-list .comment-author{
-       font-weight: 500;
-    font-size: 14px;
-    color: #555;
+	font-weight: 500;
+	font-size: 14px;
+	color: #555;
 }
 
 .comments-list .comment-date{
-     font-size: 12px;
+	font-size: 12px;
 }
 
 .comments-list .comment-content{
-   margin: 15px 0;
+	margin: 15px 0;
 }
 
 .comments-list .comment-reply{
-   color: #555;
-   text-transform: uppercase;
-   font-weight: 600;
+	color: #555;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .comments-reply{
-   list-style: none;
-   margin: 0 0 0 110px;
+	list-style: none;
+	margin: 0 0 0 110px;
 }
 
 /* Comments Form */
 
 .comments-heading.add-comment{
-      margin-top: 20px;
-    margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 .comments-form{
-   margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .comments-form .title-normal{
-   margin-top: 0;
-   line-height: normal;
-   margin-bottom: 25px;
+	margin-top: 0;
+	line-height: normal;
+	margin-bottom: 25px;
 }
 
 .comments-form .btn.btn-primary{
-   padding: 10px 20px;
-   float: right;
-   margin: 20px 0 10px;
+	padding: 10px 20px;
+	float: right;
+	margin: 20px 0 10px;
 }
 .comments-form  form .input-field input[type=text],
 .comments-form  form .input-field input[type=email],
 .comments-form  form .input-field textarea {
-     border-bottom: 1px solid #ddd;
-	 margin-left:40px;
-	 width: calc(100% - 2.5rem);
+	border-bottom: 1px solid #ddd;
+	margin-left:40px;
+	width: calc(100% - 2.5rem);
 }
 .comments-form  .input-field label {
 	color: #555;
@@ -1619,113 +1610,113 @@ body.blog .pagination li a i {
 	font-size: 15px;
 }
 .comments-form  .input-field {
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 .comments-form button {
 	height: 42px;
-    width: 100%;
-    line-height: 42px;
-    font-size: 15px;
-    transition: 0.3s ease-in-out;
+	width: 100%;
+	line-height: 42px;
+	font-size: 15px;
+	transition: 0.3s ease-in-out;
 }
 
 /*** Sidebar ***/
 
 .sidebar .widget-title{
 	font-size: 18px;
-   font-weight: 600;
-   position: relative;
-   margin-bottom: 25px;
-   margin-top: 0;
-   line-height: normal;
-   text-transform:uppercase;
+	font-weight: 600;
+	position: relative;
+	margin-bottom: 25px;
+	margin-top: 0;
+	line-height: normal;
+	text-transform:uppercase;
 }
 
 .widget{
-  background: #f2f2f2;
-  padding:25px;
-  margin-bottom: 25px;
+	background: #f2f2f2;
+	padding:25px;
+	margin-bottom: 25px;
 }
 
 /* Search Widget */
 
 .widget.widget-search{
-   padding: 8px 20px;
+	padding: 8px 20px;
 }
 
 .widget-search input,
 .widget-search input:focus{
-   border: 0 !important;
-   font-style: italic;
+	border: 0 !important;
+	font-style: italic;
 }
 
 /* Recent Posts Widget */
 
 .widget.recent-posts ul li{
-   border-bottom: 1px solid #ddd;
-   padding-bottom: 15px;
-   margin-bottom: 17px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 17px;
 }
 
 .widget.recent-posts ul li:last-child{
-   border: 0;
-   padding-bottom: 0;
-   margin-bottom: 0;
+	border: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 .widget.recent-posts .posts-thumb img{
-   margin-right: 15px;
-   width: 90px;
-   height: 70px;
+	margin-right: 15px;
+	width: 90px;
+	height: 70px;
 }
 
 .widget.recent-posts .post-info .entry-title{
-   font-size: 14px;
-   font-weight: 700;
-   line-height: 20px;
-   margin: 0;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	margin: 0;
 }
 
 .widget.recent-posts .entry-title a{
-   color: #555;
-   font-weight: 600;
+	color: #555;
+	font-weight: 600;
 }
 .widget.recent-posts .post-meta {
 	line-height:0;
 }
 
 .widget.recent-posts .post-date{
-   font-weight: 400;
-   color: #999;
-   text-transform: capitalize;
-   font-size:13px;
+	font-weight: 400;
+	color: #999;
+	text-transform: capitalize;
+	font-size:13px;
 }
 
 /* Navigation Widget */
 
 .sidebar ul.nav-tabs{
-   border:0;
+	border:0;
 }
 
 .sidebar ul.nav-tabs li a{
 	color:#656c6d;
-   border-radius: 0;
-   padding: 0;
-   padding-left: 0;
-   font-weight: 600;
-   display: inline-block;
+	border-radius: 0;
+	padding: 0;
+	padding-left: 0;
+	font-weight: 600;
+	display: inline-block;
 }
 
 .sidebar ul.nav-tabs li{
-   color: #656c6d;
-   line-height: normal;
-   font-weight: 600;
-   border-bottom: 1px solid #ddd;
-   padding: 15px 0;
+	color: #656c6d;
+	line-height: normal;
+	font-weight: 600;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0;
 }
 
 .sidebar ul.nav-tabs li:last-child{
-   border-bottom: 0;
+	border-bottom: 0;
 }
 
 /* Tags Widget */
@@ -1737,18 +1728,18 @@ body.blog .pagination li a i {
 
 .widget-tags ul > li a{
 	color:#656c6d;
-   font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 	border: 1px solid #d6d6d6;
 	display: block;
 	font-size: 13px;
 	padding: 5px 15px;
-   font-weight: 600;
+	font-weight: 600;
 	transition: 0.1s;
 }
 
 .widget-tags ul > li a:hover{
 	color: #fff;
-   border: 1px solid transparent;
+	border: 1px solid transparent;
 }
 
 /* [ RESPONSIVE DESIGN STYLES ] */
@@ -1863,10 +1854,10 @@ body.blog .pagination li a i {
 		padding-right: 15px;
 		padding-bottom: 24px;
 	}
-		body.blog .container.page-title h2{
+	body.blog .container.page-title h2{
 		font-size:35px;
 	}
-		body.blog .container.page-title .title-bg{
+	body.blog .container.page-title .title-bg{
 		display:none;
 	}
 	.divider {
@@ -2007,6 +1998,5 @@ body.blog .pagination li a i {
 	.bl-main>section.topleft .bl-box h3 {
 		font-size: 18px;
 	}
-	
-}
 
+}
