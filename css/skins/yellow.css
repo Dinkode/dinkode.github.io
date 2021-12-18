@@ -32,7 +32,6 @@ span.separator,
 .resume-list-item-inner,
 .carousel .indicators .indicator-item.active,
 #bl-work-items>div a div,
-div.bl-panel-items>div,
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form button,
 .widget-tags ul > li a:hover,
 body.blog .pagination li.active,
@@ -41,7 +40,7 @@ body.blog .pagination li.active,
 .comments-form button:focus,
 .comments-form button:active,
 body.blog .btn.back:hover,
-.personal-info a.btn.btn-blog:hover  {
+.personal-info a.btn.btn-blog:hover, div div.bl-panel-items a.btn  {
 	background: #ffb400;
 }
 .resume-card-name {
